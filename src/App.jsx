@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Sidebar from './components/navigation/Sidebar'
+import Navbar from './components/navigation/Navbar'
+import MainLayout from './layout/MainLayout'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-        <h1 className="text-4xl font-bold text-blue-600">Tailwind is working 🚀</h1>
-
+<MainLayout/>
     </>
   )
 }
